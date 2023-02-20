@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/cloudConfig/cloudConfig.iml" filepath="$PROJECT_DIR$/cloudConfig/cloudConfig.iml" />
+      <module fileurl="file://$PROJECT_DIR$/cloudConfig1/cloudConfig (1).iml" filepath="$PROJECT_DIR$/cloudConfig1/cloudConfig (1).iml" />
+      <module fileurl="file://$PROJECT_DIR$/shop_eureka_server/shop_eureka_server.iml" filepath="$PROJECT_DIR$/shop_eureka_server/shop_eureka_server.iml" />
+      <module fileurl="file://$PROJECT_DIR$/shop_service_product/shop_service_product.iml" filepath="$PROJECT_DIR$/shop_service_product/shop_service_product.iml" />
+      <module fileurl="file://$PROJECT_DIR$/springCloudConfig.iml" filepath="$PROJECT_DIR$/springCloudConfig.iml" />
+    </modules>
+  </component>
+</project>

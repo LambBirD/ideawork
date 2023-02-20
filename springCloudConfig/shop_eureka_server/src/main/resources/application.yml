@@ -1,0 +1,23 @@
+#指定应用名称
+spring:
+  application:
+    name: shop-eureka-server
+
+logging:
+  level:
+    root: info
+    org.springframework.web.servlet.DispatcherServlet: DEBUG
+    org.springframework.cloud.sleuth: DEBUG
+
+
+server:
+  port: 8761
+eureka:
+  instance:
+    hostname: 127.0.0.1
+  server:
+    enable-self-preservation: false #关闭自我保护
+    eviction-interval-timer-in-ms: 4000 #剔除时间间隔,单位:毫秒
+  client:
+    service-url:
+      defaultZone: http://127.0.0.1:8761/eureka
